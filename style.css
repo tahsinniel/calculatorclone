@@ -1,0 +1,56 @@
+body {
+   
+    background-image: linear-gradient(to right, #01AEFA,#00FA72);
+    align-items: center;
+    margin-top: 200px;
+    
+
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 180px;
+    
+}
+
+button {
+    cursor: pointer;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3px;
+    border: none;
+    background-color: #BFF5ED;
+}
+
+button:hover {
+    background-color: rgb(156, 245, 230);
+}
+
+
+#AC,#EQ {
+    width: 104px ;
+}
+
+.output {
+    height: 70px;
+    background-color: #00352D;
+    width: 202.5px;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    grid-column: 1 / -1;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
